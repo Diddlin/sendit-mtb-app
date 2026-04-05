@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//usr/local/bin/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//usr/bin/**)",
+      "Bash(/usr/local/bin/node --version)",
+      "Bash(/usr/local/bin/npm --version)",
+      "Bash(echo \"PATH: $PATH\")",
+      "Bash(PATH=/usr/local/bin:$PATH node --version)",
+      "Bash(PATH=/usr/local/bin:$PATH npm --version)",
+      "Bash(PATH=/usr/local/bin:$PATH node -e \"console.log\\(require\\(''crypto''\\).randomBytes\\(32\\).toString\\(''hex''\\)\\)\")",
+      "Bash(grep -r \"5000\\\\|API_URL\\\\|localhost\" /Users/davidmazzeo/Documents/Claude/Mtn Bike App/web/src/ --include=*.js -rn)"
+    ]
+  }
+}

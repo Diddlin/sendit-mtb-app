@@ -1,0 +1,4 @@
+node_modules/
+.env
+web/build/
+.DS_Store
