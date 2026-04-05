@@ -15,8 +15,10 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({
   origin: [
     'http://localhost:3000',
+    'http://localhost:3001',
     'http://localhost:19006', // Expo web
-    /\.yourdomain\.com$/ // production domain
+    /\.vercel\.app$/,         // all Vercel preview + production URLs
+    /\.railway\.app$/,        // Railway internal
   ],
   credentials: true
 }));
