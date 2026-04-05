@@ -41,6 +41,7 @@ app.use('/api/user', userRoutes);
 
 // Health check
 app.get('/health', (req, res) => res.json({ status: 'ok', timestamp: new Date() }));
+app.get('/api/health', (req, res) => res.json({ status: 'ok', timestamp: new Date() }));
 
 // Error handler
 app.use((err, req, res, next) => {
