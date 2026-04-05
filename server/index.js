@@ -18,6 +18,7 @@ app.use(cors({
     'http://localhost:3001',
     'http://localhost:19006', // Expo web
     /\.vercel\.app$/,         // all Vercel preview + production URLs
+    /\.netlify\.app$/,        // all Netlify preview + production URLs
     /\.railway\.app$/,        // Railway internal
   ],
   credentials: true

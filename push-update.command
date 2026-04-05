@@ -3,7 +3,7 @@ cd ~/Documents/Claude/Mtn\ Bike\ App || { echo "❌ Folder not found"; read -p "
 
 echo "⬆️  Pushing updates to GitHub..."
 git add .
-git commit -m "feat: add Railway URL, CORS fix, Vercel config"
+git commit -m "feat: add Netlify CORS support and netlify.toml"
 git push
 
 echo ""
