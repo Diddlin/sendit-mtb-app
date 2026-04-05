@@ -10,7 +10,20 @@
       "Bash(PATH=/usr/local/bin:$PATH node --version)",
       "Bash(PATH=/usr/local/bin:$PATH npm --version)",
       "Bash(PATH=/usr/local/bin:$PATH node -e \"console.log\\(require\\(''crypto''\\).randomBytes\\(32\\).toString\\(''hex''\\)\\)\")",
-      "Bash(grep -r \"5000\\\\|API_URL\\\\|localhost\" /Users/davidmazzeo/Documents/Claude/Mtn Bike App/web/src/ --include=*.js -rn)"
+      "Bash(grep -r \"5000\\\\|API_URL\\\\|localhost\" /Users/davidmazzeo/Documents/Claude/Mtn Bike App/web/src/ --include=*.js -rn)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(git --version)",
+      "Bash(PATH=/usr/local/bin:$PATH git --version)",
+      "Read(//Users/davidmazzeo/**)",
+      "Read(//Users/davidmazzeo/.ssh/**)",
+      "Bash(PATH=/opt/homebrew/bin:$PATH gh --version)",
+      "Bash(PATH=/opt/homebrew/bin:/usr/local/bin:$PATH brew install gh)",
+      "Bash(PATH=/opt/homebrew/bin:/usr/local/bin:$PATH gh auth status)",
+      "Bash(PATH=/opt/homebrew/bin:/usr/local/bin:$PATH git status)",
+      "Bash(PATH=/opt/homebrew/bin:/usr/local/bin:$PATH gh repo create sendit-mtb-app --public --description \"SendIt — MTB Trail Finder app with React web, React Native mobile, and Node.js backend\" --source=. --remote=origin --push)",
+      "Bash(PATH=/opt/homebrew/bin:/usr/local/bin:$PATH gh repo view Diddlin/sendit-mtb-app)",
+      "Bash(PATH=/opt/homebrew/bin:/usr/local/bin:$PATH git remote -v)",
+      "mcp__Claude_Preview__preview_start"
     ]
   }
 }

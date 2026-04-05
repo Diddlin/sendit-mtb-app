@@ -1,5 +1,9 @@
 node_modules/
-.env
+*/node_modules/
 web/build/
+mobile/.expo/
+.env
+*/.env
 .DS_Store
-.claude/
+**/.DS_Store
+*.log
